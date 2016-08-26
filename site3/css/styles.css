@@ -1,0 +1,118 @@
+body {
+  font-size: 18px;
+  color: #fff;
+  background-color: #98AFC7;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ADD8E6;
+  border-radius: 5px;
+  border: 5px;
+}
+#header-nav {
+margin-bottom: 25px;
+
+}
+
+#header-nav {
+  position: block;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #0000A0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  line-height: .75;
+
+}
+.container h2 {
+  color: #000A;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+
+
+  background-color: #BCC6CC
+}
+#chicken a {
+  background-color:  #C7B097;
+ 
+  border: 1px solid black;
+}
+
+#beef {
+  background-color:  #C7B097;
+  text-align: center;
+ 
+  border: 1px solid black;
+}
+#sushi {
+  background-color:  #98AFC7;
+  
+  border: 1px solid black;
+}
+
+#content {
+  background-color: #C7B097;
+
+}
+#chicken, #beef, #sushi, a {
+
+  text-align: center;
+ }  
+#chicken, #beef, #sushi, a:hover{
+       background: #E7E7E7;
+    }
+
+
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    text-align: center;
+}
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+}
+
+#collapsable-nav a {:hover; 
+  background-color: #BCC6CC;
+}
+
+@media (min-width: 768px){
+
+.navbar-collapse {
+
+visibility: hidden;
+
+}
+
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+ 
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
